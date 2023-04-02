@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent {
+    margin-top: 150px;
+}
+.flexContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.sprite {
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+#headButton {
+    margin-top: 250px;
+}
+
+body {
+    background-color: rgb(20,20,40);
+    margin-top: 50px;
+}
+
+body h1, p {
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes hoverAnim {
+    0%{width: 120px;}
+    100%{width: 130px;}
+}
+
+.hidden { display: none; }
